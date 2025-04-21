@@ -1,0 +1,7 @@
+# Ignore all .log files
+*.log
+
+# Ignore venv directory
+venv
+.venv
+# data_engineering/notebooks
