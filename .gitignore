@@ -1,7 +1,8 @@
 # Ignore all .log files
 *.log
+*.ipynb_checkpoints
 
 # Ignore venv directory
 venv
 .venv
-# data_engineering/notebooks
+data_engineering/notebooks
