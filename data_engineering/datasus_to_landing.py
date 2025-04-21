@@ -2,8 +2,8 @@ import os
 import pandas as pd
 from dbfread import DBF
 
-dbf_files = r"/data_source/dbf_files"
-csv_output = r"/data_source/csv_files"
+dbf_files = r"../../data_source/landing_area/dbf_files/"
+csv_output = r"../../data_source/landing_area/csv_files/"
 # os.makedirs(csv_output, exist_ok=True)
 
 arquivos_dbf = [f for f in os.listdir(dbf_files) if f.endswith('.dbf')]
@@ -25,4 +25,3 @@ for arquivo_dbf in arquivos_dbf:
         print(f"Erro ao processar {arquivo_dbf}: {e}")
 
 print('Conversão concluída!')
-
